@@ -1,9 +1,4 @@
-/*  
-Template Name: mlpdesign09 -- Green Zone
-Author:webmasterneo, MLP Design
-Author URI: http://www.mlpdesign.net/
-*/
-
+/*Iván Ruipérez Benítez*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
@@ -85,7 +80,7 @@ top:211px; left:0; right:0;
   margin:30px auto 15px auto; 
 }
 
-#header {
+header {
   background: #7fb50c;
   background: -moz-linear-gradient(top,  #7fb50c 0%, #61a810 50%, #4ea800 51%, #568e07 100%);
   background: -webkit-linear-gradient(top,  #7fb50c 0%,#61a810 50%,#4ea800 51%,#568e07 100%);
@@ -100,54 +95,82 @@ top:211px; left:0; right:0;
   border-bottom:1px solid #fff;
 }
 
-#header h1 {	
+header h1 {	
   text-align:center;
   padding:0;
   margin:80px auto 0 auto; 
 }
 
-#header a
+header a
 {	background-color:inherit;
 	color:#fff;
 	text-decoration:none; }
 	
-#header p
+header p
 {	text-align:center;
 	margin:0 auto; }
 
 nav {
-  text-align:center;
-  margin:15px auto;
+  text-align: center;
+  width: 80%; /* Ajusta el ancho según sea necesario */
+  margin: 0 auto; /* Centra el menú horizontalmente */
 }
-	
-ul#menu {
+
+/* Estilo para el menú principal */
+nav ul#menu {
     list-style-type: none;
-    margin: 0 auto;
-    display: table;
+    margin: 0;
     padding: 0;
-    overflow: hidden;
-    width:50%;
-
-    }
-
-ul#menu li  
- { 	display: table-cell;
-    text-align:center;  }
-   
-ul#menu li a {
-    background-color:inherit;
-    color: #000;
-    /*display:block;*/
-    padding:10px;
-    text-decoration:none;
-    font-weight:bold;
-    margin:0 1px;
 }
 
-ul#menu li a:hover,ul#menu li a.current
-{	background-color:#fff;
-	color:#000;	}
-	
+nav ul#menu li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul#menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul#menu li p {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul#menu li a:hover {
+  background-color: #f0f0f0; 
+}
+
+nav ul#menu li p:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo para el menú desplegable */
+nav ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+nav ul.submenu li {
+    display: block;
+}
+
+nav ul#menu li:hover ul.submenu {
+    display: block;
+}
+
 /* Content */
 #content
 {	text-align:left;
@@ -299,6 +322,4 @@ ul#menu li { display: block; text-align:left; margin:0 0 0 20%;}
 ul#menu li a { display: block; background-color:#fff;}
 ul#menu li a:hover { background-color:#690; color:#fff;}
 ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  color: #000;}
-
-
-
+}
