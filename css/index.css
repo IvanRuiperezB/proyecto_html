@@ -151,6 +151,12 @@ nav ul#menu li:hover ul.submenu {
     display: block;
 }
 
+#artwork {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
 /* Content */
 #content
 {	text-align:left;
