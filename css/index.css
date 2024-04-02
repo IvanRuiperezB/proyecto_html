@@ -196,12 +196,12 @@ nav ul#menu li:hover ul.submenu {
 	
 #content ul li
 {	list-style-position:inside;
-    text-indent: 0px;
-	padding-left:20px;
+  text-indent: 0px;
+	list-style-type: disc;
+  padding-left:20px;
 	margin:0; }	
 	
 #content ul li:before {
-  content: "\27a1 \00a0 \00a0";
   background-color:inherit;
   color:#c8c500;
   font-size:16px;
