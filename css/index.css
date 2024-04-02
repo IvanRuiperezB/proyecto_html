@@ -165,30 +165,13 @@ nav ul#menu li:hover ul.submenu {
 
 #content h3
 {	background-color:inherit;
-	color:#690;
+	color:#c8c500;
 	font:bold 12pt Arial,sans-serif;	
 	padding:0;	}
 
-#content span.author
-{	font:normal 8pt Arial,Helvetica,sans-serif;
-	background-color:inherit;
-	color:#666;	}
-
-#content span.author a
-{	background-color:inherit;
-	color:#999;
-	text-decoration:none;
-	padding:0 3px; }
-
-#content span.author a:hover
-{	background-color:#690;
-	color:#fff;	}
-
 #content p a
 {	background-color:inherit;
-	color:#690;
-	text-decoration:underline;	} 	
-	
+	color:#000; }	
 #content p
 {	text-align:justify;
 	line-height:24px; }
@@ -200,7 +183,7 @@ nav ul#menu li:hover ul.submenu {
 
 #content li a
 {	background-color:inherit;
-	color:#690;
+	color:#000;
 	text-decoration:none;	}
 
 #content li a:hover
@@ -220,7 +203,7 @@ nav ul#menu li:hover ul.submenu {
 #content ul li:before {
   content: "\27a1 \00a0 \00a0";
   background-color:inherit;
-  color:#690;
+  color:#c8c500;
   font-size:16px;
 }
 
@@ -297,6 +280,6 @@ ul#menu {display:none;}
 #show-menu:checked ~ ul#menu {display: block; position: absolute;  width:50%; margin:1% 0 0 -8%; overflow:visible; z-index:100;}
 ul#menu li { display: block; text-align:left; margin:0 0 0 20%;}
 ul#menu li a { display: block; background-color:#fff;}
-ul#menu li a:hover { background-color:#690; color:#fff;}
+ul#menu li a:hover { background-color:#c8c500; color:#fff;}
 ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  color: #000;}
 }
