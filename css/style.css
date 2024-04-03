@@ -290,3 +290,16 @@ ul#menu li a { display: block; background-color:#fff;}
 ul#menu li a:hover { background-color:#c8c500; color:#fff;}
 ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  color: #000;}
 }
+
+table {
+  width: 30%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
