@@ -303,3 +303,9 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
+.mini {
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
