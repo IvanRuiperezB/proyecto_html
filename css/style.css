@@ -306,6 +306,6 @@ th {
 
 .mini {
   display: inline-block;
-  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  vertical-align: middle;
+  margin-right: 10px;
 }
