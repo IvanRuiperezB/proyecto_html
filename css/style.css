@@ -329,9 +329,9 @@ tr:nth-child(odd) {
 }
 
 /* Estilo para el contenedor del formulario */
-.form-container {
+.form-contenedor {
   max-width: 400px;
-  margin: 0 auto;
+  margin-right: auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -339,27 +339,28 @@ tr:nth-child(odd) {
 }
 
 /* Estilo para los campos de entrada */
-.form-group {
+.form-grupo {
   margin-bottom: 20px;
 }
 
-.form-group label {
+.form-grupo label {
   display: block;
   margin-bottom: 5px;
 }
 
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
+.form-grupo input[type="text"],
+.form-grupo input[type="email"],
+.form-grupo textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box;
+  resize: none;
 }
 
 /* Estilo para el botón de enviar */
-.btn-submit {
+.enviar {
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -368,6 +369,6 @@ tr:nth-child(odd) {
   cursor: pointer;
 }
 
-.btn-submit:hover {
+.enviar:hover {
   background-color: #0056b3;
 }
