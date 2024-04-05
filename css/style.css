@@ -152,7 +152,7 @@ nav ul#menu li:hover ul.submenu {
     display: block;
 }
 
-img {
+.centro {
   display: block;
   margin: auto;
   max-width: 100%;
@@ -173,7 +173,7 @@ img {
 
 #content h3
 {	background-color:inherit;
-	color:#c8c500;
+	color:#333;
 	font:bold 12pt Arial,sans-serif;	
 	padding:0;	}
 
@@ -383,3 +383,4 @@ tr:nth-child(odd) {
 .enviar:hover {
   background-color: #0056b3;
 }
+
