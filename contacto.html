@@ -45,15 +45,24 @@
             <div class="form-contenedor">
                 <form action="http://172.22.200.240/resultado.php" method="post">
                   <div class="form-grupo">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="name" name="nombre" required>
                   </div>
                   <div class="form-grupo">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="email" name="correo" required><br>
                   </div>
+				  <div class="form-grupo">
+					<label>Habilidad que vas a enviar:</label><br>
+					<input type="radio" id="opcion1" name="habilidad" value="Gadget" required><label for="opcion1" class="radio-label">Gadget</label><br>
+					<input type="radio" id="opcion2" name="habilidad" value="StarPower"><label for="opcion2" class="radio-label">Star Power</label>
+				  </div>
+				  <div class="form-grupo">
+					<label for="brawler">Brawler:</label>
+                    <input type="text" id="brawler" name="brawler" required>
+				  </div>
                   <div class="form-grupo">
-                    <label for="message">Mensaje:</label>
+                    <label for="message">Descripción:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                   </div>
                   <button type="submit" class="enviar">Enviar</button>

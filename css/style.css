@@ -344,7 +344,7 @@ tr:nth-child(odd) {
 }
 
 .form-grupo label {
-  display: block;
+  display: inline-block;
   margin-bottom: 5px;
 }
 
@@ -357,6 +357,17 @@ tr:nth-child(odd) {
   border-radius: 3px;
   box-sizing: border-box;
   resize: none;
+}
+
+.form-group input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.form-group label.radio-label {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Estilo para el botón de enviar */
