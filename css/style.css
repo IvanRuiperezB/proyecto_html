@@ -106,6 +106,7 @@ nav ul#menu {
 nav ul#menu li {
     display: inline-block;
     position: relative;
+    text-align: center;
 }
 
 nav ul#menu li a {
